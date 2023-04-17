@@ -1,0 +1,75 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  color: #363636;
+}
+
+.project-title {
+}
+
+.pin-container {
+  display: flex;
+  padding: 0 15px;
+}
+.search-by-desc {
+  padding: 5px 10px 5px 0;
+}
+.pin-option {
+  display: flex;
+}
+.option {
+  padding: 5px 10px;
+}
+
+.is-selected {
+  border-radius: 7px;
+  background-color: #8cff57;
+  font-weight: bold;
+}
+
+.pin-content {
+  margin-top: 15px;
+}
+
+.branch-name-container,
+.pin-number-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.branch-name-content,
+.pin-number-content {
+  display: flex;
+  margin: 7px 10px;
+}
+
+.user-branch-input,
+.user-pin-input {
+  margin: 0 10px;
+}
+
+.search-data {
+}
+
+table {
+  width: 100%;
+  padding-top: 5px;
+}
+
+.table-header {
+  background-color: #6e6e6e;
+  color: #ebebeb;
+  font-weight: bold;
+  position: sticky;
+  top: 0px;
+}
+
+.table-data {
+  background-color: #bdbdbd;
+  color: #242424;
+  font-weight: bold;
+}
+
+.search-discription {
+  font-weight: bold;
+}
